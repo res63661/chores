@@ -41,6 +41,9 @@
     "sinon": "^4.0.1",
     "supertest": "^4.0.2"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "dependencies": {
     "@babel/core": "^7.8.4",
     "@babel/plugin-proposal-export-default-from": "^7.8.3",
