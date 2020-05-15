@@ -41,9 +41,10 @@ const config = {
   test: { },
   development: {
     mongo: {
-      uri: 'mongodb://localhost/chore-db-2-dev',
+      //uri: 'mongodb://localhost/chore-db-2-dev',
+      uri: 'mongodb://user1:overLord8@ds051833.mlab.com:51833/chore-db-2-dev-cloud?connectTimeoutMS=10000&authSource=chore-db-2-dev-cloud&authMechanism=SCRAM-SHA-1&3t.uriVersion=3&3t.connection.name=chore+db+dev+CLOUD&3t.databases=chore-db-2-dev-cloud',
       options: {
-        debug: true
+        debug: true,
       }
     }
   },
