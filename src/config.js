@@ -24,7 +24,7 @@ const config = {
     env: process.env.NODE_ENV || 'development',
     root: path.join(__dirname, '..'),
     port: process.env.PORT || 9000,
-    ip: process.env.IP || '127.0.0.1',
+    ip: process.env.IP || '0.0.0.0',
     apiRoot: process.env.API_ROOT || '',
     defaultEmail: 'no-reply@chore-db-2.com',
     sendgridKey: requireProcessEnv('SENDGRID_KEY'),
